@@ -26,8 +26,6 @@ The architecture used in this project includes:
 
    * Content Delivery Network (CDN) used to distribute the website globally.
    * Improves performance and reduces latency.
-   * clound front link - https://d3f4abcd1234.cloudfront.net
-
 ---
 
 ## Technologies Used
@@ -111,7 +109,7 @@ Example policy:
 The website is accessible through the S3 website endpoint:
 
 ```
-http://arnav-kumar-static-website.s3-website-us-east-1.amazonaws.com/
+http://aarush-static-website.s3-website-ap-south-1.amazonaws.com
 ```
 
 ---
@@ -122,10 +120,11 @@ A **CloudFront distribution** was created to improve content delivery speed and 
 
 CloudFront fetches website content from the S3 bucket and delivers it via a global CDN network.
 
-CloudFront URL example:
+CloudFront URL:
 
 ```
-https://dxxxxx.cloudfront.net
+https://d3f4abcd1234.cloudfront.net
+
 ```
 
 ---

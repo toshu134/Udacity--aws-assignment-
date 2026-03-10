@@ -26,6 +26,7 @@ The architecture used in this project includes:
 
    * Content Delivery Network (CDN) used to distribute the website globally.
    * Improves performance and reduces latency.
+   * clound front link - https://d3f4abcd1234.cloudfront.net
 
 ---
 

@@ -44,11 +44,6 @@ The architecture used in this project includes:
 ### 1. Create an S3 Bucket
 
 * Created a new S3 bucket named:
-
-```
-arnav-kumar-static-website
-```
-
 * Disabled **Block Public Access** settings.
 * Enabled **Static Website Hosting**.
 
@@ -109,7 +104,7 @@ Example policy:
 The website is accessible through the S3 website endpoint:
 
 ```
-http://aarush-static-website.s3-website-ap-south-1.amazonaws.com
+http://arnav-kumar-static-website.s3-website-us-east-1.amazonaws.com/
 ```
 
 ---
@@ -123,7 +118,7 @@ CloudFront fetches website content from the S3 bucket and delivers it via a glob
 CloudFront URL:
 
 ```
-https://d3f4abcd1234.cloudfront.net
+https://d3qizh5wfz84an.cloudfront.net/
 
 ```
 
